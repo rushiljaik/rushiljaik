@@ -3,7 +3,7 @@
 <div align="center">
 
 <a href="https://github.com/rushiljaik">
-  <img width="100%" src="./assets/hero.svg" alt="Rushil Jai Krishan Pandita — Creative Web Developer and AI Explorer" />
+  <img width="100%" src="./assets/hero.svg?v=2" alt="Rushil Jai Krishan Pandita — Creative Web Developer and AI Explorer" />
 </a>
 
 <br />
@@ -151,4 +151,3 @@ I’m always open to interesting ideas, open-source collaboration, ambitious exp
 <img width="100%" src="./assets/footer.svg" alt="Stay curious, keep building, ship something remarkable" />
 
 </div>
-

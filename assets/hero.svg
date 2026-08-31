@@ -1,6 +1,6 @@
 <svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Rushil Jai Krishan Pandita — Developer and Builder</title>
-  <desc id="desc">An animated dark gradient banner with floating code symbols and a friendly introduction.</desc>
+  <title id="title">Rushil Jai Krishan Pandita — Creative Web Developer and AI Explorer</title>
+  <desc id="desc">An animated neon banner introducing Rushil as a creative developer, AI explorer, and relentless builder.</desc>
   <defs>
     <linearGradient id="bg" x1="80" y1="30" x2="1120" y2="390" gradientUnits="userSpaceOnUse">
       <stop stop-color="#111827"/>
@@ -60,8 +60,8 @@
     <text x="600" y="102" fill="#67E8F9" font-size="17" font-weight="700" letter-spacing="4">HELLO, WORLD — I'M</text>
     <text x="600" y="205" fill="url(#headline)" font-size="86" font-weight="800" letter-spacing="-4">Rushil</text>
     <path class="line" d="M430 228C520 248 685 247 774 224" stroke="#22D3EE" stroke-width="4" stroke-linecap="round" opacity="0.78"/>
-    <text x="600" y="288" fill="#E2E8F0" font-size="26" font-weight="500">Developer · Builder · Curious Problem Solver<tspan class="cursor" fill="#67E8F9">_</tspan></text>
-    <text x="600" y="337" fill="#94A3B8" font-size="17" letter-spacing="1">HTML · CSS · JAVASCRIPT · JAVA · PYTHON · EXPLORING AI</text>
+    <text x="600" y="288" fill="#E2E8F0" font-size="26" font-weight="500">Creative Developer · AI Explorer · Relentless Builder<tspan class="cursor" fill="#67E8F9">_</tspan></text>
+    <text x="600" y="337" fill="#94A3B8" font-size="17" letter-spacing="1">CODE × DESIGN × CURIOSITY × ARTIFICIAL INTELLIGENCE</text>
   </g>
 
   <rect x="1" y="1" width="1198" height="418" rx="27" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="2"/>

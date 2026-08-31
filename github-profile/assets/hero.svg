@@ -1,0 +1,68 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Rushil Jai Krishan Pandita — Developer and Builder</title>
+  <desc id="desc">An animated dark gradient banner with floating code symbols and a friendly introduction.</desc>
+  <defs>
+    <linearGradient id="bg" x1="80" y1="30" x2="1120" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="0.5" stop-color="#1E1B4B"/>
+      <stop offset="1" stop-color="#0E7490"/>
+    </linearGradient>
+    <linearGradient id="headline" x1="360" y1="130" x2="850" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C4B5FD"/>
+      <stop offset="0.52" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#67E8F9"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(905 70) rotate(139) scale(445 260)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0.23"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <style>
+      .orb-a { animation: drift-a 8s ease-in-out infinite alternate; }
+      .orb-b { animation: drift-b 10s ease-in-out infinite alternate; }
+      .code { animation: float 4s ease-in-out infinite alternate; }
+      .code.delay-1 { animation-delay: -1.4s; }
+      .code.delay-2 { animation-delay: -2.7s; }
+      .cursor { animation: blink 1s steps(2, end) infinite; }
+      .line { stroke-dasharray: 500; stroke-dashoffset: 500; animation: draw 2.4s ease-out forwards; }
+      @keyframes drift-a { to { transform: translate(45px, 24px) scale(1.12); } }
+      @keyframes drift-b { to { transform: translate(-36px, -18px) scale(.92); } }
+      @keyframes float { to { transform: translateY(-12px); opacity: .75; } }
+      @keyframes blink { 50% { opacity: 0; } }
+      @keyframes draw { to { stroke-dashoffset: 0; } }
+      @media (prefers-reduced-motion: reduce) {
+        .orb-a, .orb-b, .code, .cursor, .line { animation: none; }
+        .line { stroke-dashoffset: 0; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="28" fill="url(#glow)"/>
+  <g opacity="0.13">
+    <path d="M0 70H1200M0 140H1200M0 210H1200M0 280H1200M0 350H1200" stroke="#A5F3FC"/>
+    <path d="M100 0V420M200 0V420M300 0V420M400 0V420M500 0V420M600 0V420M700 0V420M800 0V420M900 0V420M1000 0V420M1100 0V420" stroke="#A5F3FC"/>
+  </g>
+
+  <circle class="orb-a" cx="1040" cy="92" r="108" fill="#7C3AED" opacity="0.22" filter="url(#blur)"/>
+  <circle class="orb-b" cx="165" cy="340" r="125" fill="#06B6D4" opacity="0.18" filter="url(#blur)"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-weight="700" fill="#A5F3FC" opacity="0.43">
+    <text class="code" x="102" y="102" font-size="34">&lt;/&gt;</text>
+    <text class="code delay-1" x="1010" y="318" font-size="38">{ }</text>
+    <text class="code delay-2" x="1080" y="162" font-size="28">01</text>
+    <text class="code delay-2" x="168" y="330" font-size="27">( )</text>
+  </g>
+
+  <g text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <text x="600" y="102" fill="#67E8F9" font-size="17" font-weight="700" letter-spacing="4">HELLO, WORLD — I'M</text>
+    <text x="600" y="205" fill="url(#headline)" font-size="86" font-weight="800" letter-spacing="-4">Rushil</text>
+    <path class="line" d="M430 228C520 248 685 247 774 224" stroke="#22D3EE" stroke-width="4" stroke-linecap="round" opacity="0.78"/>
+    <text x="600" y="288" fill="#E2E8F0" font-size="26" font-weight="500">Developer · Builder · Curious Problem Solver<tspan class="cursor" fill="#67E8F9">_</tspan></text>
+    <text x="600" y="337" fill="#94A3B8" font-size="17" letter-spacing="1">HTML · CSS · JAVASCRIPT · JAVA · PYTHON · EXPLORING AI</text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="418" rx="27" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="2"/>
+</svg>
